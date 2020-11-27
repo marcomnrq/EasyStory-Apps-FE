@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default axios.create({
-    baseURL: 'https://easystoryapi2020.azurewebsites.net/api',
+    baseURL: 'http://localhost:3000',
     headers: {
         'Content-type': 'application/json'
     }
